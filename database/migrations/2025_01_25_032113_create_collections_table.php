@@ -13,8 +13,6 @@ return new class extends Migration
     {
         Schema::create('collections', function (Blueprint $table) {
             $table->id();
-            $table->user_id();
-            $table->book_id();
             $table->timestamps();
         });
     }
